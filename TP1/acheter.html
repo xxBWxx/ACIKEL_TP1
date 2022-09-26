@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LEGO Webstore</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1><i class="colored-lego">LEGO</i> WebStore</h1>
+
+    <hr />
+
+    <a href="produit.html" class="nav-link">Produit</a>
+    <a href="acheter.html" class="nav-link">Acheter</a>
+    <a href="contact.html" class="nav-link">Contact</a>
+
+    <hr />
+
+    <h2>Acheter des <i class="colored-lego">LEGO</i></h2>
+
+    <p>
+      Remplissez le formulaire ci-dessous pour commander des
+      <i class="colored-lego">LEGO</i> !
+    </p>
+    <form action="">
+      <h3>Informations personnelles</h3>
+
+      <div>
+        <p>Civilité:</p>
+        <input type="radio" name="sex" />
+        <label for="monsieur">M.</label>
+
+        <input type="radio" name="sex" />
+        <label for="madame">Mme.</label>
+      </div>
+      <br />
+      <div>
+        <label for="nom">Name:</label>
+        <br />
+        <input type="text" id="nom" />
+      </div>
+
+      <div>
+        <label for="prenom">Prénom:</label>
+        <br />
+        <input type="text" id="prenom" />
+      </div>
+
+      <div>
+        <label for="mail">Mail:</label>
+        <br />
+        <input type="email" id="mail" />
+      </div>
+
+      <h3>Informations de livraison</h3>
+
+      <div>
+        <label for="quantite">Quantité Commandée:</label>
+        <br /><br />
+        <select id="quantite">
+          <option value="1">1 boîte</option>
+          <option value="2">2 boîtes</option>
+          <option value="3">3 boîtes</option>
+          <option value="4">4 boîtes</option>
+          <option value="5">5 boîtes</option>
+        </select>
+      </div>
+      <br /><br />
+      <div>
+        <label for="livraison">Adresse de livraison:</label>
+        <br />
+        <textarea id="livraison" cols="20" rows="2"></textarea>
+      </div>
+
+      <h3>Confirmation</h3>
+
+      <div>
+        <input type="checkbox" id="confirmation" />
+        <label for="html2"
+          >J'ai relu ma commande et certifie que ces informations sont
+          correctes.</label
+        >
+      </div>
+      <br />
+      <button>Confirmer la commande</button>
+    </form>
+
+    <hr />
+
+    <footer>
+      <a href="#">Retour en haut de page</a>
+      <p>TP1 : Découverte de HTML et CSS</p>
+      <p>L2 Développement Web - 2018</p>
+    </footer>
+  </body>
+</html>

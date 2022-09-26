@@ -1,0 +1,69 @@
+* {
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eeeeee;
+}
+
+body {
+  background-color: #fff;
+  margin: auto;
+  padding: 32px;
+  width: 600px;
+  text-align: center;
+}
+
+.colored-lego {
+  color: #007bff;
+}
+
+a {
+  color: #007bff;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.source {
+  font-size: 12px;
+  text-align: right;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead,
+tbody {
+  border: 3px solid;
+}
+
+td,
+th {
+  padding: 7px 14px;
+  border: 1px solid;
+  text-align: center;
+}
+
+.lego-image {
+  text-align: center;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 56px;
+}
+
+.nav-link {
+  display: block;
+}
+
+iframe {
+  text-align: center;
+}
